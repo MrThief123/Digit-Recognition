@@ -5,7 +5,8 @@ import pickle
 
 img = open("train.csv")
 data = csv.reader(img)
-print('test')
+
+
 header = next(data)
  
 X = []
